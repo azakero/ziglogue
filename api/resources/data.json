@@ -1,0 +1,110 @@
+[
+    {
+        "title": "Samsung Galaxy S22 Ultra",
+        "slug": "samsung-galaxy-s22-ultra",
+        "description": "The Samsung Galaxy S22 Ultra is an amped-up Galaxy Note with a faster S Pen built in, lots of camera improvements, a brighter display and faster charging. This is a stellar phone overall, but it's also pretty pricey and the battery life could be better.",
+        "color": "Phantom Black",
+        "price": 1299,
+        "image": "https://t.infibeam.com/img/othe/5501214/a9/e9/samsunggalaxys22ultraphantomwhite1.png.ead1ffa9e9.999x600x550.png",
+        "specifications": {
+            "display": "6.80-inch",
+            "processor": "Qualcomm Snapdragon 8 Gen 1",
+            "frontCam": "40MP",
+            "rearCam": "108MP + 12MP + 10MP",
+            "ram": "12GB",
+            "storage": "1TB",
+            "batteryCapacity": "5000mAh",
+            "os": "Android 12"
+        }
+    },
+    {
+        "title": "iPhone 13 Pro Max",
+        "slug": "iphone-13-pro-max",
+        "description": "Equipped with high-end specifications, iPhone 13 Pro Max is the newly launched smartphone amongst iPhone 13 series that includes iPhone 13, iPhone 13 mini, and iPhone 13 Pro. The mobile comes with 5G connectivity support and is available at a starting price of Rs 1,29,900 in Graphite, Gold, Silver, Sierra Blue color variants.",
+        "color": "Sierra Blue",
+        "price": 1099,
+        "image": "https://securecontent.jackyselectronics.com/images/product-images/28da2c28-f1bd-4b9f-aac1-7c38fe136210.jpg",
+        "specifications": {
+            "display": "6.70-inch",
+            "processor": "Apple A15 Bionic",
+            "frontCam": "12MP",
+            "rearCam": "12MP + 12MP + 12MP",
+            "ram": "6GB",
+            "storage": "128GB",
+            "batteryCapacity": "4352mAh",
+            "os": "iOS 15"
+        }
+    },
+    {
+        "title": "OnePlus 10 Pro",
+        "slug": "one-plus-10-pro",
+        "description": "OnePlus 10 Pro is yet another premium flagship offering from the brand. The smartphone promises seamless visuals and detailed portraits. It continues the OnePlus legacy with a powerful processor configuration backed by a massive 8GB RAM. Moreover, a 5000mAh battery with 80W Super Flash Charging capability ensures prolonged usage.",
+        "color": "Emerald Forest",
+        "price": 899,
+        "image": "https://myblogguru.com/wp-content/uploads/2022/02/gsmarena_006.jpg",
+        "specifications": {
+            "display": "6.70-inch",
+            "processor": "Qualcomm Snapdragon 8 Gen 1",
+            "frontCam": "32MP",
+            "rearCam": "48MP + 50MP + 8MP",
+            "ram": "8GB",
+            "storage": "128GB",
+            "batteryCapacity": "5000mAh",
+            "os": "Android 12"
+        }
+    },
+    {
+        "title": "Huawei Enjoy 20e",
+        "slug": "huawei-enjoy-20-e",
+        "description": "Huawei Enjoy 20e comes loaded with a variety of popular features that people usually search for in a smartphone. Its inbuilt 4GB RAM backed by a powerful battery layout assures seamless performance throughout the day. Moreover, you can also trust the device with standard captures and impressive storage space.",
+        "color": "Magic Night Black",
+        "price": 150,
+        "image": "https://gnptimes.in/wp-content/uploads/2022/01/huawei-enjoy-20e-launched-price-cny-1399-specifications-features-696x365.jpg",
+        "specifications": {
+            "display": "6.30-inch",
+            "processor": "HiSilicon Kirin 710A",
+            "frontCam": "8MP",
+            "rearCam": "13MP + 2MP",
+            "ram": "6GB",
+            "storage": "128GB",
+            "batteryCapacity": "5000mAh",
+            "os": "HarmonyOS 2"
+        }
+    },
+    {
+        "title": "Xiaomi 12 Pro",
+        "slug": "xiaomi-12-pro",
+        "description": "The Pro version of Xiaomi Mi 12, assures a promising user experience in the long run. Its high-ended features, like an 8GB RAM, Quad cameras on the backside and 4600mAh quick charging enabled battery are quite an impressive deal. Moreover, users also get access to a Gorilla Glass protected front screen which promises seamless visuals.",
+        "color": "Pink",
+        "price": 899,
+        "image": "https://cdn-files.kimovil.com/default/0006/88/thumb_587148_default_big.jpg",
+        "specifications": {
+            "display": "6.73-inch",
+            "processor": "Qualcomm Snapdragon 8 Gen 1",
+            "frontCam": "32MP",
+            "rearCam": "50MP + 50MP + 50MP",
+            "ram": "8GB",
+            "storage": "128GB",
+            "batteryCapacity": "4600mAh",
+            "os": "Android 12"
+        }
+    },
+    {
+        "title": "Motorola Edge+",
+        "slug": "motorola-edge-plus",
+        "description": "The new Motorola Edge+ has the fastest performance and 5G speeds**, the highest resolution smartphone camera, the loudest audio, and the boldest display. The Qualcomm® Snapdragon 865 Mobile Platform is the world's fastest, with an AI engine that can process 15 trillion operations per second. 12GB of DDR5, the next generation of memory, delivers powerhouse performance with more bandwidth and less battery drain.",
+        "color": "Smokey Sangria",
+        "price": 825,
+        "image": "https://www.gizmochina.com/wp-content/uploads/2020/04/Motorola-Edge-2.png",
+        "specifications": {
+            "display": "6.70-inch",
+            "processor": "Qualcomm Snapdragon 8 Gen 1",
+            "frontCam": "60MP",
+            "rearCam": "50MP + 50MP + 2MP",
+            "ram": "8GB",
+            "storage": "512GB",
+            "batteryCapacity": "4800mAh",
+            "os": "Android 12"
+        }
+    }
+]

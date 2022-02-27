@@ -1,0 +1,33 @@
+li {
+    font-size: 14px;
+    margin: 10px 0;
+
+    div:first-child {
+        width: 30%;
+        margin-right: 20px;
+        float: left;
+        
+        span {
+            font-weight: bolder;
+        }
+    }
+}
+
+@media screen and (max-width: 1107px)  {
+ 
+    li {
+        font-size: 13px !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    li {
+        text-align: center !important;
+
+        div:first-child {
+            width: 100% !important;
+            margin-right: 0 !important;
+        }
+    }
+}

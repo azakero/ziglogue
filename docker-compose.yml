@@ -1,0 +1,48 @@
+version: "3"
+services: 
+
+  api:
+    build: 
+      context: ./api
+      dockerfile: Dockerfile
+      args: 
+        NODE_ENV: development
+    container_name: ziglogue-api
+    volumes:
+      - ./api:/app/api:ro
+      - /app/api/node_modules
+    environment:
+      - NODE_ENV=development
+      - PORT=3001
+    command: npm run server
+    ports:
+      - "3001:3001"
+    restart: always
+    networks:
+      - phone-catalogue
+
+  client: 
+    build: 
+      context: ./client
+      dockerfile: Dockerfile
+      args: 
+        NODE_ENV: development
+    container_name: ziglogue-client
+    stdin_open: true
+    volumes:
+      - ./client:/client
+      - /app/client/node_modules
+    command: npm start
+    ports:
+      - "3000:3000"
+    env_file: ./client/.env
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+    restart: always
+    networks:
+      - phone-catalogue
+
+networks:
+  phone-catalogue: 
+    driver: bridge

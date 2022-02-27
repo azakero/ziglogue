@@ -1,0 +1,26 @@
+.loader {
+    border: 5px solid;
+    border-color: var(--color-3) transparent;
+    border-radius: 50%;
+    display: inline-block;
+    animation: rotation 1s linear infinite;
+}
+
+.loaderSmall {
+    width: 28px;
+    height: 28px;
+}
+
+.loaderLarge {
+    width: 48px;
+    height: 48px;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+   }
+    100% {
+        transform: rotate(360deg);
+   }
+}
