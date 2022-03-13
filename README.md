@@ -5,6 +5,7 @@
 ## Branches
 1. master - App with old Redux
 2. ziglogue-w-redux-toolkit - App with Redux Toolkit
+3. ziglogue-w-redux-toolkit-typescript - App with Typesctipt & Redux Toolkit
 
 ## Test 
 1. Download or clone the repo. 
