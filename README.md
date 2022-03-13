@@ -1,6 +1,6 @@
 # Requirements
 
-> NodeJS, Docker
+> Docker
 
 ## Branches
 1. master - App with old Redux
