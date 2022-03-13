@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import styles from './PhoneDetail.module.scss';
-import { getProducts } from '../../actions/productActions';
+import { getProducts } from '../../features/product/productSlice';
 import Loader from '../Loader/Loader';
 import PhoneSpecsListItem from './PhoneSpecsList/PhoneSpecsListItem';
 
@@ -13,8 +13,7 @@ const PhoneDetail = () => {
 
 	const [product, setProduct] = useState({});
 
-	const getAllProducts = useSelector(state => state.getProducts);
-	const { loading, products, error } = getAllProducts;
+	const { products, isLoading, isError, isSuccess, message } = useSelector(state => state.products);
 
 	useEffect(() => {
 
@@ -33,13 +32,13 @@ const PhoneDetail = () => {
 		<div className={styles.container}>
 
 			{
-				loading ? (
+				isLoading ? (
 					<div className={styles.loaderContainer}>
 						<Loader size='large' />
 					</div>
-				) : error ? (
+				) : isError ? (
 					<div className={styles.errorContainer}>
-						<p>{error}</p>
+						<p>{message}</p>
 					</div>
 				) : (
 					<div className={styles.productContainer}>
