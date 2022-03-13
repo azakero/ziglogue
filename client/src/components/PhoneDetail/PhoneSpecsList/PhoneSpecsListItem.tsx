@@ -1,21 +1,28 @@
+import React from 'react';
 import './PhoneSpecsListItem.module.scss';
 
-const PhoneSpecsListItem = ({ title, specs }) => {
+interface ListItemProps {
+    title: string;
+    specs: string;
+}
+
+
+const PhoneSpecsListItem: React.FC<ListItemProps> = ( { title, specs } ) => {
     return (
         <li>
             <div>
                 <span>
-                    {title}
+                    { title }
                 </span>
             </div>
 
             <div>
                 <span>
-                    {specs}
+                    { specs }
                 </span>
             </div>
         </li>
-    )
-}
+    );
+};
 
 export default PhoneSpecsListItem;
