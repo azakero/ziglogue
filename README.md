@@ -6,6 +6,7 @@
 1. master - App with old Redux
 2. ziglogue-w-redux-toolkit - App with Redux Toolkit
 3. ziglogue-w-redux-toolkit-typescript - App with Typesctipt & Redux Toolkit
+4. ziglogue-w-tests - App with Cypress e2e Tests
 
 ## Test 
 1. Download or clone the repo. 
