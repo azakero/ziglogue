@@ -38,7 +38,7 @@ interface ProductState {
     message: string | undefined;
 }
 
-const initialState: ProductState = {
+export const initialState: ProductState = {
     products: null,
     isError: false,
     isSuccess: false,
@@ -76,6 +76,7 @@ export const productSlice = createSlice( {
                 state.message = action.payload.message;
             } )
             .addCase( getProducts.rejected, ( state, action ) => {
+                console.log( action );
                 state.isLoading = false;
                 state.isError = true;
                 state.message = action.payload as string;

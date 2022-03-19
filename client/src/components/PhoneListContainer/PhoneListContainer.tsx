@@ -5,6 +5,8 @@ import Loader from '../Loader/Loader';
 import { getProducts, getProductsSelector } from '../../features/product/productSlice';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 
+
+
 const PhoneListContainer: React.FC = () => {
 
 	const dispatch = useAppDispatch();
@@ -17,10 +19,10 @@ const PhoneListContainer: React.FC = () => {
 	}, [ dispatch ] );
 
 	return (
-		<div className={ styles.container }>
+		<div className={ styles.container } data-testid='product-list-container'>
 			{
 				isLoading ? (
-					<div className={ styles.loaderContainer }>
+					<div className={ styles.loaderContainer } data-cy='loaderContainer'>
 						<Loader size='large' />
 					</div>
 				) : isError ? (
@@ -28,10 +30,10 @@ const PhoneListContainer: React.FC = () => {
 						<p>{ message }</p>
 					</div>
 				) : (
-					<div className={ styles.productContainer }>
+					<div className={ styles.productContainer } data-cy='productsContainer'>
 						{
 							products && products.length !== 0 && products.map( ( item, idx ) => (
-								<div key={ item.title } className={ styles.item }>
+								<div key={ item.title } className={ styles.item } data-testid='product-container'>
 
 									<div className={ styles.itemInfo }>
 
@@ -40,6 +42,7 @@ const PhoneListContainer: React.FC = () => {
 											<div
 												style={ { display: imgLoader ? "flex" : "none" } }
 												className={ `${ styles.loaderContainer } ${ styles.imgLoader }` }
+												data-cy='imgLoaderContainer'
 											>
 												<Loader size='small' />
 											</div>
@@ -64,7 +67,7 @@ const PhoneListContainer: React.FC = () => {
 									</div>
 
 									<div className={ styles.itemLink }>
-										<Link to={ item.slug }>
+										<Link to={ item.slug } data-cy="viewProductBtn">
 											View Specifications
 										</Link>
 									</div>

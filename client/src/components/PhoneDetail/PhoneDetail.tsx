@@ -57,10 +57,10 @@ const PhoneDetail: React.FC = () => {
 						<p>{ message }</p>
 					</div>
 				) : (
-					<div className={ styles.productContainer }>
+					<div className={ styles.productContainer } data-cy='productContainer'>
 
 						<div className={ styles.header }>
-							<Link to='/'>
+							<Link to='/' data-cy="goBackBtn">
 								Go Back
 							</Link>
 						</div>
@@ -76,7 +76,7 @@ const PhoneDetail: React.FC = () => {
 								<div className={ styles.productSpecificationsInner }>
 
 									<div className={ styles.productHeader }>
-										<h1>{ product.title }</h1>
+										<h1 data-cy='productTitle'>{ product.title }</h1>
 										<span>{ product.color }</span>
 									</div>
 

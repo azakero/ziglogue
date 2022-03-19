@@ -1,0 +1,38 @@
+[
+	{
+		"title": "Samsung Galaxy S22 Ultra",
+		"slug": "samsung-galaxy-s22-ultra",
+		"description": "The Samsung Galaxy S22 Ultra is an amped-up Galaxy Note with a faster S Pen built in, lots of camera improvements, a brighter display and faster charging. This is a stellar phone overall, but it's also pretty pricey and the battery life could be better.",
+		"color": "Phantom Black",
+		"price": 1299,
+		"image": "https://t.infibeam.com/img/othe/5501214/a9/e9/samsunggalaxys22ultraphantomwhite1.png.ead1ffa9e9.999x600x550.png",
+		"specifications": {
+			"display": "6.80-inch",
+			"processor": "Qualcomm Snapdragon 8 Gen 1",
+			"frontCam": "40MP",
+			"rearCam": "108MP + 12MP + 10MP",
+			"ram": "12GB",
+			"storage": "1TB",
+			"batteryCapacity": "5000mAh",
+			"os": "Android 12"
+		}
+	},
+	{
+		"title": "iPhone 13 Pro Max",
+		"slug": "iphone-13-pro-max",
+		"description": "Equipped with high-end specifications, iPhone 13 Pro Max is the newly launched smartphone amongst iPhone 13 series that includes iPhone 13, iPhone 13 mini, and iPhone 13 Pro. The mobile comes with 5G connectivity support and is available at a starting price of Rs 1,29,900 in Graphite, Gold, Silver, Sierra Blue color variants.",
+		"color": "Sierra Blue",
+		"price": 1099,
+		"image": "https://securecontent.jackyselectronics.com/images/product-images/28da2c28-f1bd-4b9f-aac1-7c38fe136210.jpg",
+		"specifications": {
+			"display": "6.70-inch",
+			"processor": "Apple A15 Bionic",
+			"frontCam": "12MP",
+			"rearCam": "12MP + 12MP + 12MP",
+			"ram": "6GB",
+			"storage": "128GB",
+			"batteryCapacity": "4352mAh",
+			"os": "iOS 15"
+		}
+	}
+]
